@@ -53,7 +53,7 @@ export default function LandingPage() {
         {!token && (
           <Link to="/login">
             <Button size="lg" className="bg-black text-white">
-              Login{' '}
+              Get Started{' '}
             </Button>
           </Link>
         )}
