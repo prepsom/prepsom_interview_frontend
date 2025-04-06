@@ -179,14 +179,7 @@ export default function LandingPage() {
           <div className="font-bold text-3xl sm:text-4xl md:text-5xl text-center mb-8">Partner Institutes</div>
           <div className="flex flex-wrap items-center justify-center gap-8 container">
             <Marquee pauseOnHover className="[--duration:10s] flex gap-5">
-              <img src={companyLogo2} alt="" width={120} height={60} />
-              <img src={companyLogo3} alt="" width={120} height={60} />
-              <img src={companyLogo4} alt="" width={120} height={60} />
-              <img src={companyLogo5} alt="" width={120} height={60} />
-              <img src={companyLogo6} alt="" width={120} height={60} />
               <img src={companyLogo7} alt="" width={120} height={60} />
-              <img src={companyLogo8} alt="" width={120} height={60} />
-              <img src={companyLogo9} alt="" width={120} height={60} />
             </Marquee>
           </div>
         </section>
