@@ -179,7 +179,10 @@ export default function LandingPage() {
           <div className="font-bold text-3xl sm:text-4xl md:text-5xl text-center mb-8">Partner Institutes</div>
           <div className="flex flex-wrap items-center justify-center gap-8 container">
             <Marquee pauseOnHover className="[--duration:10s] flex gap-5">
-              <img src={companyLogo7} alt="" width={120} height={60} />
+              {[companyLogo1, companyLogo2, companyLogo3, companyLogo4, companyLogo5, companyLogo6, companyLogo7, companyLogo8, companyLogo9].map((logo, index) => (
+                <img key={index} src={logo} alt={`Company Logo ${index + 1}`} width={120} height={60} />
+              ))}
+              {/* <img src={companyLogo7} alt="" width={120} height={60} /> */}
             </Marquee>
           </div>
         </section>
